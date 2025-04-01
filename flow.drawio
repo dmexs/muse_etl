@@ -1,33 +1,54 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.2.3">
   <diagram name="Page-1" id="VTtJCzl3SS9MM9IeXYbd">
-    <mxGraphModel dx="2072" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZnqGLwRk_k8SvJbiQVw-1" target="FZnqGLwRk_k8SvJbiQVw-2">
+        <mxCell id="FZnqGLwRk_k8SvJbiQVw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FZnqGLwRk_k8SvJbiQVw-1" target="FZnqGLwRk_k8SvJbiQVw-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-4" value="XML Report Distribution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZnqGLwRk_k8SvJbiQVw-3">
+        <mxCell id="FZnqGLwRk_k8SvJbiQVw-4" value="XML Report Distribution" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FZnqGLwRk_k8SvJbiQVw-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0222" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FZnqGLwRk_k8SvJbiQVw-1" target="FZnqGLwRk_k8SvJbiQVw-5">
+        <mxCell id="FZnqGLwRk_k8SvJbiQVw-1" value="Muse Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FZnqGLwRk_k8SvJbiQVw-2" target="fnvl2f5XugC0mfbzBk4i-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-8" value="MSSQL Reporting Server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZnqGLwRk_k8SvJbiQVw-7">
-          <mxGeometry x="0.3459" y="-1" relative="1" as="geometry">
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-3" value="SMB Copy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fnvl2f5XugC0mfbzBk4i-2">
+          <mxGeometry x="0.1086" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-1" value="Muse Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="FZnqGLwRk_k8SvJbiQVw-2" value="Network SMB Share" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-2" value="Network SMB Share" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fnvl2f5XugC0mfbzBk4i-1" target="fnvl2f5XugC0mfbzBk4i-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FZnqGLwRk_k8SvJbiQVw-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fnvl2f5XugC0mfbzBk4i-1" target="fnvl2f5XugC0mfbzBk4i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-1" value="VM Temp Filesystem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fnvl2f5XugC0mfbzBk4i-5" target="fnvl2f5XugC0mfbzBk4i-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-5" value="DataFrame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fnvl2f5XugC0mfbzBk4i-8" target="fnvl2f5XugC0mfbzBk4i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-8" value="Raw XML DB Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fnvl2f5XugC0mfbzBk4i-12" value="Blob Store (Unity Catalog Volume)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="650" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
